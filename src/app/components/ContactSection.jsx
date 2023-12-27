@@ -23,8 +23,8 @@ const ContactSection = () => {
           <div class="p-6 grid justify-center justify-items-center w-full">
             <ContactMailIcon sx={{ fontSize: 130 }} />
             <p className="text-sm font-light text-center pt-3">
-              I'm available for new opportunities. <br></br>Please feel free to
-              contact me to discuss further
+              I&apos;m available for new opportunities. Please feel
+              free to contact me to discuss further
             </p>
           </div>
         </div>
@@ -55,7 +55,10 @@ const ContactSection = () => {
                     </p>
                   </div>
                   <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                    <a href="mailto:kornkanok.dev@gmail.com" className="hover:text-blue-500">
+                    <a
+                      href="mailto:kornkanok.dev@gmail.com"
+                      className="hover:text-blue-500"
+                    >
                       <ArrowCircleRightIcon />
                     </a>
                   </div>

@@ -17,7 +17,7 @@ const ProflieSction = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -45,10 +45,10 @@ const ProflieSction = () => {
             <button
               className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
               onClick={() => {
-                const pdfPath = "/resume/Resume-Kornkanok.pdf"; 
+                const pdfPath = "/resume/Resume-Kornkanok.pdf";
                 const link = document.createElement("a");
                 link.href = pdfPath;
-                link.download = "Resume-Kornkanok.pdf"; 
+                link.download = "Resume-Kornkanok.pdf";
                 link.click();
               }}
             >
@@ -67,6 +67,7 @@ const ProflieSction = () => {
             <Image
               src="/images/pic1.png"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="Profile picture"
               width={300}
               height={300}
             />

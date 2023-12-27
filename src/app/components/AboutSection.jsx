@@ -3,14 +3,18 @@ import React from "react";
 import Image from "next/image";
 import WavingHandIcon from "@mui/icons-material/WavingHand";
 import SchoolIcon from "@mui/icons-material/School";
-import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
+import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
 import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
-    <motion.section initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }} className="text-white py-5 md:py-20" id="about">
+    <motion.section
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      className="text-white py-5 md:py-20"
+      id="about"
+    >
       <div className="flex">
         <SentimentSatisfiedAltIcon fontSize="large" />
         <h2 className="uppercase text-xl font-bold md:text-3xl  ml-2">
@@ -19,25 +23,30 @@ const AboutSection = () => {
       </div>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 ">
         <div>
-          <Image src="/images/1166-16-222-1.png" width={380} height={380} />
+          <Image
+            src="/images/1166-16-222-1.png"
+            alt="Description of the image"
+            width={380}
+            height={380}
+          />
         </div>
         <div>
           <h2 className="text-lg uppercase font-semibold text-white mb-4 md:text-3xl">
             Who am i ?
           </h2>
           <p className="text-sm lg:text-base indent-8">
-            Hello! <WavingHandIcon className="mr-2" /> I'm Kornkanok Rinphon
-            (Aomsin) , a fresh graduate from Computer Engineering, excited to
-            embark on a journey into the world of{" "}
+            Hello! <WavingHandIcon className="mr-2" /> I&apos;m Kornkanok
+            Rinphon (Aomsin), a fresh graduate from Computer Engineering,
+            excited to embark on a journey into the world of
             <span className=" text-pink-400 font-semibold">
               frontend development.
             </span>
           </p>
           <p className="text-sm lg:text-base indent-8 pt-2">
-            Now I am looking for a career as a{" "}
+            Now I am looking for a career as a
             <span className=" text-pink-400 font-semibold">
               Full-Time Frontend Developer
-            </span>{" "}
+            </span>
             and aim to improve my coding skills and productivity in this field.
             In addition to technical skills I also strive to strengthen
             problem-solving abilities and promote effective collaboration within
