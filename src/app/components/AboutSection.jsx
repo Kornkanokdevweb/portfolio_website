@@ -38,14 +38,14 @@ const AboutSection = () => {
             Hello! <WavingHandIcon className="mr-2" /> I&apos;m Kornkanok
             Rinphon (Aomsin), a fresh graduate from Computer Engineering,
             excited to embark on a journey into the world of
-            <span className=" text-pink-400 font-semibold">
+            <span className=" text-pink-400 font-semibold mx-1">
               frontend development.
             </span>
           </p>
           <p className="text-sm lg:text-base indent-8 pt-2">
-            Now I am looking for a career as a
-            <span className=" text-pink-400 font-semibold">
-              Full-Time Frontend Developer
+            Now I am looking for a career as a 
+            <span className=" text-pink-400 font-semibold mx-1">
+              Full-Time Frontend Developer 
             </span>
             and aim to improve my coding skills and productivity in this field.
             In addition to technical skills I also strive to strengthen

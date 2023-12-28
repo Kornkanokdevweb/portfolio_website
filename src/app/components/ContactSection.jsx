@@ -18,7 +18,7 @@ const ContactSection = () => {
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-3 md:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-12 justify-items-center">
         <div class="group flex flex-col mt-6 shadow-md bg-clip-border rounded-xl w-full justify-center justify-items-center">
           <div class="p-6 grid justify-center justify-items-center w-full">
             <ContactMailIcon sx={{ fontSize: 130 }} />
